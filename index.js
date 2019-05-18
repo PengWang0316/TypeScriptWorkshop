@@ -2,8 +2,8 @@ const workshopper = require('workshopper-adventure');
 const path = require('path');
 
 const typescripting = workshopper({
-  title: 'TYPESCRIPTING',
-  exerciseDir: path.join(__dirname, 'exercise'),
+  title: 'City University of Seattle TYPESCRIPTING',
+  exerciseDir: path.join(__dirname, 'exercises'),
   appDir: __dirname,
   languages: ['en'],
 });
