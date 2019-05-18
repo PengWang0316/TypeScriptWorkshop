@@ -8,4 +8,8 @@ const typescripting = workshopper({
   languages: ['en'],
 });
 
+typescripting.addAll([
+  'types',
+]);
+
 module.exports = typescripting;
