@@ -6,6 +6,9 @@
   "scripts": {
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
+  "bin": {
+    "typescripting": "./bin/typescripting.js"
+  },
   "author": "Kevin Wang",
   "license": "MIT",
   "jest": {
@@ -15,6 +18,13 @@
       "__tests__/helpers/",
       "__tests__/debug_events/"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PengWang0316/TypeScriptWorkshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PengWang0316/TypeScriptWorkshop/issues"
   },
   "dependencies": {
     "after": "^0.8.2",
