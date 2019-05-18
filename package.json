@@ -1,0 +1,26 @@
+{
+  "name": "typescript-workshop",
+  "version": "1.0.0",
+  "description": "A workshop exercise for TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+  },
+  "author": "Kevin Wang",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "__tests__/helpers/",
+      "__tests__/debug_events/"
+    ]
+  },
+  "dependencies": {
+    "after": "^0.8.2",
+    "typescript": "^3.4.5",
+    "workshopper-adventure": "^6.0.4",
+    "workshopper-exercise": "^3.0.1",
+    "xtend": "^4.0.1"
+  }
+}
